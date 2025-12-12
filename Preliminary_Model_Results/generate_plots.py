@@ -12,9 +12,9 @@ period_labels = ['p1', 'p2', 'p3']
 # Define case name mapping
 case_name_mapping = {
     'Basecase_RGGI': 'Baseline',
-    'Updated_RGGI_noOOS': 'CES + CCS',
-    'Updated_RGGI_procurement_noOOS_noinc': 'CES + CCS + Tech. Procurement',
-    'Updated_RGGI_procurement_noOOS': 'CES + Incremental CCS + Tech. Procurement'
+    'Updated_RGGI_noOOS_noninc': 'CES + CCS',
+    'Updated_RGGI_procurement_noOOS_noninc': 'CES + CCS + Tech. Procurement',
+    'Updated_RGGI_procurement_noOOS_inc': 'CES + Incremental CCS + Tech. Procurement'
 }
 
 def rename_case(case_name):
@@ -28,7 +28,7 @@ def rename_case(case_name):
 print("Generating costs line chart...")
 
 # Load costs data
-df_costs = pd.read_csv("Costs_by_Zone_by_Year_ALL_CASES.csv")
+df_costs = pd.read_csv("Preliminary_Model_Results/Costs_by_Zone_by_Year_ALL_CASES.csv")
 
 # Extract total price columns
 cost_cols = ['Total_Price_p1', 'Total_Price_p2', 'Total_Price_p3']
@@ -57,7 +57,7 @@ print("✓ Saved: costs_line_chart.png")
 print("Generating emissions line charts...")
 
 # Load emissions data
-df_emissions = pd.read_csv("Load_and_Emissions.csv")
+df_emissions = pd.read_csv("Preliminary_Model_Results/Load_and_Emissions.csv")
 
 # Total System Emissions
 total_emission_cols = [
@@ -112,7 +112,7 @@ print("✓ Saved: nj_emissions_line_chart.png")
 print("Generating capacity grouped bar chart for 2045...")
 
 # Load capacity data
-df_capacity = pd.read_csv("Capacities_by_Zone_by_Tech_by_Year_ALL_CASES.csv")
+df_capacity = pd.read_csv("Preliminary_Model_Results/Capacities_by_Zone_by_Tech_by_Year_ALL_CASES.csv")
 
 # Sum across zones for each case
 df_capacity_summed = df_capacity.groupby("CaseName").sum(numeric_only=True).reset_index()
@@ -150,7 +150,7 @@ ax.grid(True, alpha=0.3, axis='y')
 plt.tight_layout()
 plt.savefig('capacity_grouped_bar_chart_2045.png', dpi=300, bbox_inches='tight')
 plt.close()
-print("✓ Saved: capacity_grouped_bar_chart_2045.png")
+print("✓ Saved: capacity_bar_chart_2045.png")
 
 
 # ===================================================================
@@ -160,7 +160,7 @@ print("✓ Saved: capacity_grouped_bar_chart_2045.png")
 print("Generating NJ clean consumption fraction line chart...")
 
 # Load generation data
-df_generation = pd.read_csv("In_State_Generation_and_Consumption.csv")
+df_generation = pd.read_csv("Preliminary_Model_Results/In_State_Generation_and_Consumption.csv")
 
 # Extract clean consumption fraction columns
 clean_consumption_cols = [
