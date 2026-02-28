@@ -1,0 +1,11 @@
+CaseName,Zone,Energy_Price_p1,PJM_Capacity_Price_p1,NJ_Clean_Capacity_Price_p1,EAC_Price_p1,MinCap_Price_p1,Total_Price_p1,Energy_Price_p2,PJM_Capacity_Price_p2,NJ_Clean_Capacity_Price_p2,EAC_Price_p2,MinCap_Price_p2,Total_Price_p2,Energy_Price_p3,PJM_Capacity_Price_p3,NJ_Clean_Capacity_Price_p3,EAC_Price_p3,MinCap_Price_p3,Total_Price_p3
+highambition_base,NJ,26,63,0,4.87,0,93.87,29,53,0.0,0.0,0,82.0,29,58,0.0,2.36,0,89.36
+highambition_ces,NJ,26,63,0,4.93,0,93.93,29,53,0.0,0.0,0,82.0,29,58,0.0,7.25,0,94.25
+highambition_cesccs,NJ,26,63,0,4.93,0,93.93,29,53,0.0,0.0,0,82.0,19,43,180.97,0.06,0,243.03
+highambition_cesccstech,NJ,26,63,0,4.95,0,93.95,29,52,0.0,0.0,1,82.0,19,43,181.49,0.01,0,243.5
+highambition_cesccstechnuc35,NJ,26,63,0,4.95,0,93.95,28,52,0.0,0.0,1,81.0,19,43,181.53,0.03,0,243.56
+highambition_cesccstechnuc45,NJ,26,63,0,4.95,0,93.95,29,52,0.0,0.0,1,82.0,19,43,181.5,0.05,0,243.55
+highambition_cesccstechret,NJ,26,63,0,4.91,0,93.91,29,52,0.0,0.0,1,82.0,18,51,170.4,0.0,0,239.4
+highambition_cesincccstech,NJ,26,63,0,4.95,0,93.95,29,52,0.0,0.0,1,82.0,24,53,86.85,0.0,0,163.85
+highambition_cesincccstechinstate,NJ,26,63,0,4.96,0,93.96,29,52,0.0,0.0,1,82.0,20,53,94.52,0.0,0,167.52
+highambition_cesinstate50,NJ,26,63,0,4.83,0,93.83,29,53,0.0,0.01,0,82.01,29,58,0.0,0.31,0,87.31
