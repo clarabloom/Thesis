@@ -125,7 +125,7 @@ stack_df.index = x_positions
 # -----------------------------
 # PLOT
 # -----------------------------
-fig, ax = plt.subplots(figsize=(16, 8))
+fig, ax = plt.subplots(figsize=(14, 8))
 
 # White background
 fig.patch.set_facecolor("#FFFFFF")

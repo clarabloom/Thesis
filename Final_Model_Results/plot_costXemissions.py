@@ -28,7 +28,7 @@ colors = [
 ]
 
 # Plot
-fig, ax = plt.subplots(figsize=(10, 5))
+fig, ax = plt.subplots(figsize=(14, 8))
 fig.patch.set_facecolor("#FFFFFF")
 ax.set_facecolor("#FFFFFF")
 

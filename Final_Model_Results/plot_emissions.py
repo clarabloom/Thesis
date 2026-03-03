@@ -13,7 +13,7 @@ years = [2030, 2035, 2045]
 
 emis = pd.read_csv("/Users/clarabloom/Thesis/Final_Model_Results/BASE/Load_and_Emissions.csv")
 
-plt.figure(figsize=(14, 6))
+plt.figure(figsize=(14, 8))
 
 for case in emis["CaseName"].unique():
     subset = emis[emis["CaseName"] == case]

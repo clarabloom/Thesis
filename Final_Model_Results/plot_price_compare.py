@@ -28,7 +28,7 @@ line_styles = {
     "NJ Clean Capacity Price": "-",
 }
 
-fig, axes = plt.subplots(2, 2, figsize=(10, 8), sharey=True)
+fig, axes = plt.subplots(2, 2, figsize=(14, 8), sharey=True)
 axes = axes.flatten()
 fig.patch.set_facecolor("#FFFFFF")
 

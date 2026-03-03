@@ -1,0 +1,11 @@
+CaseName,Zone,Energy_Price_p1,PJM_Capacity_Price_p1,NJ_Clean_Capacity_Price_p1,EAC_Price_p1,MinCap_Price_p1,Total_Price_p1,Energy_Price_p2,PJM_Capacity_Price_p2,NJ_Clean_Capacity_Price_p2,EAC_Price_p2,MinCap_Price_p2,Total_Price_p2,Energy_Price_p3,PJM_Capacity_Price_p3,NJ_Clean_Capacity_Price_p3,EAC_Price_p3,MinCap_Price_p3,Total_Price_p3
+lowdemand_base,NJ,26,63,0,2.38,0,91.38,33,49,0.0,0.0,0,82.0,32,54,0.0,0.08,0,86.08
+lowdemand_ces,NJ,26,63,0,2.41,0,91.41,33,50,0.0,0.0,0,83.0,32,54,0.0,0.0,0,86.0
+lowdemand_cesccs,NJ,26,63,0,2.41,0,91.41,33,50,0.0,0.0,0,83.0,23,37,177.07,0.0,0,237.08
+lowdemand_cesccstech,NJ,26,63,0,2.4,0,91.4,32,49,0.0,0.0,0,81.0,23,39,175.79,0.0,0,237.79
+lowdemand_cesccstechnuc35,NJ,26,63,0,2.4,0,91.4,31,49,0.0,0.0,0,80.0,23,39,175.49,0.0,0,237.49
+lowdemand_cesccstechnuc45,NJ,26,63,0,2.4,0,91.4,32,49,0.0,0.0,0,81.0,23,39,176.17,0.0,0,238.17
+lowdemand_cesccstechret,NJ,26,63,0,2.47,0,91.47,32,49,0.0,0.0,0,81.0,22,49,162.95,0.0,0,233.95
+lowdemand_cesincccstech,NJ,26,63,0,2.4,0,91.4,32,49,0.0,0.0,0,81.0,25,52,84.6,0.0,0,161.6
+lowdemand_cesincccstechinstate,NJ,26,63,0,2.4,0,91.4,32,49,0.0,0.0,1,82.0,23,52,90.37,0.0,0,165.37
+lowdemand_cesinstate50,NJ,26,63,0,2.38,0,91.38,33,50,0.0,0.0,0,83.0,32,54,0.0,0.01,0,86.01
