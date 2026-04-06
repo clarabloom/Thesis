@@ -19,14 +19,16 @@ import numpy as np
 # === 1) HARD-CODE YOUR CASE DIRECTORIES HERE ===
 # You can use relative names (folders next to this script) or absolute paths.
 CASE_DIRS = [
-    "Basecase_RGGI",
-    "Updated_RGGI_noprocurement",
-    "Updated_RGGI_noprocurement_noOOS",
-    "Updated_RGGI_procurement_noOOS",
-    "Basecase_RGGI_solarderate",
-    "Updated_RGGI_noprocurement_solarderate",
-    "Updated_RGGI_noprocurement_noOOS_solarderate",
-    "Updated_RGGI_procurement_noOOS_solarderate",  
+    "/scratch/gpfs/JENKINS/cb2158/GenX.jl-main/example_systems/FINAL_SYSTEMS/base/base_base",
+    "/scratch/gpfs/JENKINS/cb2158/GenX.jl-main/example_systems/FINAL_SYSTEMS/base/base_ces",
+    "/scratch/gpfs/JENKINS/cb2158/GenX.jl-main/example_systems/FINAL_SYSTEMS/base/base_cesccs",
+    "/scratch/gpfs/JENKINS/cb2158/GenX.jl-main/example_systems/FINAL_SYSTEMS/base/base_cesccstech",
+   "/scratch/gpfs/JENKINS/cb2158/GenX.jl-main/example_systems/FINAL_SYSTEMS/base/base_cesccstechnuc35",
+    "/scratch/gpfs/JENKINS/cb2158/GenX.jl-main/example_systems/FINAL_SYSTEMS/base/base_cesccstechnuc45",
+    "/scratch/gpfs/JENKINS/cb2158/GenX.jl-main/example_systems/FINAL_SYSTEMS/base/base_cesccstechret",
+    "/scratch/gpfs/JENKINS/cb2158/GenX.jl-main/example_systems/FINAL_SYSTEMS/base/base_cesincccstech",
+    "/scratch/gpfs/JENKINS/cb2158/GenX.jl-main/example_systems/FINAL_SYSTEMS/base/base_cesincccstechinstate",
+    "/scratch/gpfs/JENKINS/cb2158/GenX.jl-main/example_systems/FINAL_SYSTEMS/base/base_cesinstate50"
     ]
 
 # === Existing function, modified only to read from a given base_dir ===
